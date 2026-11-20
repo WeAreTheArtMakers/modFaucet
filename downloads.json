@@ -1,0 +1,13 @@
+{
+  "latest": "0.9.0",
+  "releases": [
+    {
+      "version": "0.9.0",
+      "date": "2026-11-20",
+      "url": "https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.9.0/modFaucet-0.9.0-chrome.zip",
+      "sha256": "073f31b1fc89bb8d870b376f853b307e5294808ea0056c7f225c3cb884fa2f0d",
+      "bytes": 19522,
+      "notes": "First standalone public preview. Twelve-coin queue, grouped tabs, visible cooldowns, optional completion alerts and four consent-based referral links. No native companion required."
+    }
+  ]
+}
