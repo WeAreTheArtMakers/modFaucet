@@ -1,1 +1,1 @@
-073f31b1fc89bb8d870b376f853b307e5294808ea0056c7f225c3cb884fa2f0d  modFaucet-0.9.0-chrome.zip
+0fbb6e4efc32b7decd72a9c593fd39a3c8a0b13c375138aaa3d9b3c7a75d1e77  modFaucet-0.10.0-chrome.zip
