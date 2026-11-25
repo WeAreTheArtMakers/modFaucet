@@ -1,6 +1,14 @@
 {
-  "latest": "0.10.0",
+  "latest": "0.10.1",
   "releases": [
+    {
+      "version": "0.10.1",
+      "date": "2026-11-25",
+      "url": "https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.1/modFaucet-0.10.1-chrome.zip",
+      "sha256": "17560c03b7ea4cb3172bac2807e6108a144947132f649ef66b9290e5ad18f0a5",
+      "bytes": 23128,
+      "notes": "FireFaucet fixes: reuse loading tabs, discard observations after page changes, recognize the v5 accessible ACP balance and add Daily bonus. Panel interaction and narrow-width checks completed with sample data."
+    },
     {
       "version": "0.10.0",
       "date": "2026-11-24",

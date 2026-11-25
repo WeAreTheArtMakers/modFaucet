@@ -8,7 +8,7 @@
 
 A standalone Chrome side panel for organizing manual faucet claims.
 
-**[Website](https://wearetheartmakers.github.io/modFaucet/)** · **[Download v0.10.0](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.0/modFaucet-0.10.0-chrome.zip)** · **[All releases](https://github.com/WeAreTheArtMakers/modFaucet/releases)** · **[Privacy](https://wearetheartmakers.github.io/modFaucet/privacy.html)**
+**[Website](https://wearetheartmakers.github.io/modFaucet/)** · **[Download v0.10.1](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.1/modFaucet-0.10.1-chrome.zip)** · **[All releases](https://github.com/WeAreTheArtMakers/modFaucet/releases)** · **[Privacy](https://wearetheartmakers.github.io/modFaucet/privacy.html)**
 
 </div>
 
@@ -22,10 +22,10 @@ modFaucet adds a FireFaucet workspace alongside twelve PandaFaucet coin pages: g
 
 | | Current public edition |
 |---|---|
-| Release | **v0.10.0 · Public preview** |
+| Release | **v0.10.1 · Public preview** |
 | Browser | Chrome desktop **120+** |
 | Platforms | Windows, macOS and Linux with supported Chrome |
-| Download | **22.4 KB ZIP** · no repository clone required |
+| Download | **22.6 KB ZIP** · no repository clone required |
 | Setup | Chrome’s manual **Load unpacked** flow |
 | Runtime | Standalone extension; no Python, local server or companion app |
 | Website hosting | GitHub Pages |
@@ -78,7 +78,7 @@ The public edition has **no native messaging bridge or companion-service depende
 
 ## Install for Chrome
 
-1. **[Download the extension ZIP](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.0/modFaucet-0.10.0-chrome.zip)** and extract it into a permanent folder.
+1. **[Download the extension ZIP](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.1/modFaucet-0.10.1-chrome.zip)** and extract it into a permanent folder.
 2. Open **`chrome://extensions`** in Chrome.
 3. Enable **Developer mode**, select **Load unpacked**, and choose the extracted `modFaucet` folder containing `manifest.json`.
 4. Pin modFaucet from Chrome’s Extensions menu and open its side panel.
@@ -94,7 +94,7 @@ Download a newer release, replace the files in the **same installed folder**, th
 
 ## FireFaucet workspace
 
-Select **Connect FireFaucet** and approve its separate optional host permission. Six official shortcuts reuse supported tabs in the shared group: dashboard, 30-minute faucet, Daily Tasks, PTC ads, surveys and offerwalls. No bulk opening or page reload is performed.
+Select **Connect FireFaucet** and approve its separate optional host permission. Seven official shortcuts reuse supported tabs in the shared group: dashboard, 30-minute faucet, Daily Bonus, Daily Tasks, PTC ads, surveys and offerwalls. Loading tabs are reused as well. No bulk opening or page reload is performed. Results from a page that changes during reading are discarded.
 
 Select **Read visible status** after a supported page loads. The panel shows recognized ACP, Fuel and native Auto Faucet state with the observation time and path. Fields absent from the page stay **Unknown**, and old observations are marked stale. This is an on-demand reader, not continuous FireFaucet monitoring. Revoke FireFaucet independently from PandaFaucet.
 
@@ -152,17 +152,17 @@ The downloadable extension ZIP necessarily contains the JavaScript, HTML and CSS
 
 ## Release validation
 
-For **v0.10.0**:
+For **v0.10.1**:
 
-- **50 JavaScript tests passed**, including standalone worker startup, permission checks, queue navigation and page-reader cases.
+- **52 JavaScript tests passed**, including standalone worker startup, permission checks, queue navigation and page-reader cases.
 - Archive integrity, module dependencies, included files and private-data exclusions checked.
 - Release metadata and the published ZIP verified against the SHA-256 checksum.
 - FireFaucet tests cover host/path boundaries, consent, duplicate-tab prevention, read-only extraction and absent values.
-- Earlier v0.9.0 website layout and download-flow checks remain documented in its release. The new FireFaucet UI and account selectors have not yet been verified in a signed-in browser session.
+- Earlier v0.9.0 website layout and download-flow checks remain documented in its release. The new panel connection, status display, revocation and 360px layout were exercised in a browser with clearly labelled sample data; no console errors or horizontal overflow were observed. The signed-in v5 site’s accessible ACP balance was observed directly, but the installed-extension injection and Auto Faucet/Fuel fields still require an uninterrupted live-account check.
 
 This is a public preview. Fresh-profile installation across every supported operating system and actual provider payouts are not claimed as verified by these checks.
 
-**[Download checksums](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.0/SHA256SUMS.txt)** · **[Release notes](https://github.com/WeAreTheArtMakers/modFaucet/releases/tag/v0.10.0)**
+**[Download checksums](https://github.com/WeAreTheArtMakers/modFaucet/releases/download/v0.10.1/SHA256SUMS.txt)** · **[Release notes](https://github.com/WeAreTheArtMakers/modFaucet/releases/tag/v0.10.1)**
 
 ## Support and feedback
 
